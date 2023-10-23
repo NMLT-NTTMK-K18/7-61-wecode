@@ -1,0 +1,19 @@
+# No tracking stuff
+.vs
+.vscode
+**/*test*
+**/*temp*
+
+# VS
+**/x64
+
+# Code runner
+**/*.exe
+
+# CodeBlocks
+**/*bin
+**/*obj
+**/TestCodeBlock*
+
+# Python
+**/*.py
