@@ -1,6 +1,8 @@
-# 200 WECODE 🫠
+# 7 - 200 - WECODE 🫠
 
-**Ải 9:** Bài tập thực hành 7 - `200 WeCode
+![STT - 7](https://img.shields.io/badge/STT-7-82A0D8?style=for-the-badge)
+![Bài tập - 200 Wecode](https://img.shields.io/badge/b%C3%A0i_t%E1%BA%ADp-200_wecode-8DDFCB?style=for-the-badge)
+![Ải - 9](https://img.shields.io/badge/%E1%BA%A3i-9-ECEE81?style=for-the-badge)
 
 ---
 
@@ -11,6 +13,8 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/NMLT-NTTMK-K18/7-200-wecode?style=for-the-badge&color=FBF0B2)](../../../graphs/contributors)
 
 [![WorkedProject Badge](https://img.shields.io/badge/worked_project-4%2F20-82A0D8?style=for-the-badge)](./UnworkedProject.md)
+
+---
 
 ## MEMBERS
 
