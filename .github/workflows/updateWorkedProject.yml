@@ -1,0 +1,55 @@
+name: Auto Update Working Progress
+
+on:
+  push:
+    branches: ["main", "dev"]
+  pull_request:
+    branches: ["main", "dev"]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  USERNAME: ${{ secrets.ACTION_RUNNER_USERNAME }}
+  EMAIL: ${{ secrets.ACTION_RUNNER_EMAIL }}
+
+permissions: write-all
+
+jobs:
+  check:
+    name: Working Progress
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+
+      - uses: actions/setup-python@main
+        with:
+          python-version: "3.11"
+
+      - name: Download checkWorkingProgress.py
+        run: wget https://github.com/NMLT-NTTMK-K18/Utilities/raw/main/Check%20Working%20Progress/checkWorkingProgressWeCode.py -O checkWorkingProgress.py
+
+      - name: Run python script
+        run: python checkWorkingProgress.py
+
+      - name: Github commit & push
+        continue-on-error: true
+        run: |
+          rm -rf checkWorkingProgress.py
+          if [ -n "${{ env.EMAIL }}" ]; then
+          git config --global user.email ${{ env.EMAIL }}
+          else
+              git config --global user.email "action@github.com"
+          fi
+          if [ -n "${{ env.USERNAME }}" ]; then
+              git config --global user.name ${{ env.USERNAME }}
+          else
+              git config --global user.name "GitHub Action"
+          fi
+          git add .
+          git commit -m "✅ Auto update Working Progress"
+          git push

@@ -1,0 +1,32 @@
+name: Check Code
+
+on:
+  # push:
+  #   branches: ["main", "dev"]
+  # pull_request:
+  #   branches: ["main", "dev"]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+permissions: write-all
+
+jobs:
+  check:
+    name: Check Code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+
+      - name: CPP Linter
+        uses: cpp-linter/cpp-linter-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          style: file
+          files-changed-only: false
+          thread-comments: true
+          step-summary: true
