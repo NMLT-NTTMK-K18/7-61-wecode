@@ -12,7 +12,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/NMLT-NTTMK-K18/7-200-wecode?style=for-the-badge&color=D8B4F8)
 [![GitHub contributors](https://img.shields.io/github/contributors/NMLT-NTTMK-K18/7-200-wecode?style=for-the-badge&color=FBF0B2)](../../../graphs/contributors)
 
-[![WorkedProject Badge](https://img.shields.io/badge/progress-10%20%2F%2020-82A0D8?style=for-the-badge)](./UnworkedProject.md)
+[![WorkedProject Badge](https://img.shields.io/badge/progress-12%20%2F%2020-82A0D8?style=for-the-badge)](./UnworkedProject.md)
 
 ---
 
