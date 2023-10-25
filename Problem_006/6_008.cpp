@@ -3,34 +3,32 @@ using namespace std;
 
 int main()
 {
-    int n;
-    cin >> n;
-    int a[500];
-    for (int i = 0; i < n; i++)
-        cin >> a[i];
-    int Number_Erase;
-    cin >> Number_Erase;
-    int dem = 0;
-    for (int i = 0; i < n; i++)
+    int size;
+    cin >> size;
+
+    int arr[500];
+    for (int i = 0; i < size; i++)
     {
-        if (a[i] == Number_Erase)
-            dem++;
+        cin >> arr[i];
     }
-    for (int i = 0; i < n; i++)
+
+    int num;
+    cin >> num;
+
+    int newSize = 0;
+    for (int i = 0; i < size; i++)
     {
-        if (a[i] == Number_Erase)
+        if (arr[i] != num)
         {
-            for (int j = i; j < n; j++)
-            {
-                a[j] = a[j + 1];
-            }
+            arr[newSize] = arr[i];
+            newSize++;
         }
     }
-    if (n == dem)
-        return 0;
-    for (int i = 0; i < n - dem; i++)
+
+    for (int i = 0; i < newSize; i++)
     {
-        cout << a[i] << " ";
+        cout << arr[i] << " ";
     }
+
     return 0;
 }
