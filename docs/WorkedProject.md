@@ -1,8 +1,7 @@
 ## WORKED PROJECTS
 
-List các file đã làm:
 
-## PROBLEM_006
+### PROBLEM_006
 
 1.	[6_001](../Problem_006/6_001.cpp)
 2.	[6_002](../Problem_006/6_002.cpp)
@@ -13,7 +12,7 @@ List các file đã làm:
 7.	[6_009](../Problem_006/6_009.cpp)
 8.	[6_010](../Problem_006/6_010.cpp)
 
-## PROBLEM_007
+### PROBLEM_007
 
 1.	[7_001](../Problem_007/7_001.cpp)
 2.	[7_003](../Problem_007/7_003.cpp)
