@@ -5,36 +5,12 @@ const int MAX_SIZE = 100;
 const int MAXR = 100;
 const int MAXC = 100;
 
-bool isFrobeniusMatrix(float matrix[MAX_SIZE][MAX_SIZE], int size)
+bool isMaTranDonVi(int matrix[MAX_SIZE][MAX_SIZE], int size);
+void NhapMaTran(int matrix[MAX_SIZE][MAX_SIZE], int &size);
+
+void NhapMaTran(int matrix[MAX_SIZE][MAX_SIZE], int &size)
 {
-    int countNonZeroColumns = 0;
-
-    for (int i = 0; i < size; i++)
-        if (matrix[i][i] != 1)
-            return false;
-    for (int i = 0; i < size; i++)
-        for (int j = 0; j < size; j++)
-            if (i < j && matrix[i][j] != 0)
-                return false;
-
-    for (int i = 0; i < size; i++)
-    {
-        int k = 0;
-        for (int j = 0; j < size; j++)
-        {
-            if (j > i && matrix[j][i] != 0)
-                k++;
-        }
-        if (k != 0)
-            countNonZeroColumns++;
-    }
-    if (countNonZeroColumns > 1)
-        return false;
-    return true;
-}
-
-void NhapMaTran(float matrix[MAX_SIZE][MAX_SIZE], int size)
-{
+    cin >> size;
     for (int i = 0; i < size; i++)
     {
         for (int j = 0; j < size; j++)
@@ -44,21 +20,17 @@ void NhapMaTran(float matrix[MAX_SIZE][MAX_SIZE], int size)
     }
 }
 
-int main()
+bool isMaTranDonVi(int matrix[MAX_SIZE][MAX_SIZE], int size)
 {
-    float a[MAXR][MAXC];
-    int n;
-    cin >> n;
-    int m;
-    cin >> m;
-    NhapMaTran(a, n);
-    if (isFrobeniusMatrix(a, n))
+    for (int i = 0; i < size; i++)
     {
-        cout << "Yes";
+        for (int j = 0; j < size; j++)
+        {
+            if ((i == j && matrix[i][j] != 1) || (i != j && matrix[i][j] != 0))
+            {
+                return false;
+            }
+        }
     }
-    else
-    {
-        cout << "No";
-    }
-    return 0;
+    return true;
 }
