@@ -34,3 +34,12 @@ bool isMaTranDonVi(int matrix[MAX_SIZE][MAX_SIZE], int size)
     }
     return true;
 }
+
+int main()
+{
+    int a[MAXR][MAXC], n;
+    NhapMaTran(a, n);
+    std::cout << std::boolalpha << isMaTranDonVi(a, n);
+    return 0;
+}
+// This problem not include main_func please erase it befor submit in wecode
