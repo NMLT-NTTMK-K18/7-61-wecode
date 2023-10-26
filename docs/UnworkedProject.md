@@ -3,8 +3,6 @@
 
 ### PROBLEM_006
 
-1.	[6_004](../Problem_006/6_004.cpp)
-2.	[6_007](../Problem_006/6_007.cpp)
 
 ### PROBLEM_007
 

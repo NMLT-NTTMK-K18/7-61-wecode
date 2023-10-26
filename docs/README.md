@@ -13,8 +13,8 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/NMLT-NTTMK-K18/7-200-wecode?style=for-the-badge&color=FBF0B2)](../../../graphs/contributors)
 [![CodeFactor](https://img.shields.io/codefactor/grade/github/nmlt-nttmk-k18/7-200-wecode?style=for-the-badge)](https://www.codefactor.io/repository/github/nmlt-nttmk-k18/7-200-wecode)
 
-[![Unworked Badge](https://img.shields.io/badge/pending-4%20%2F%2020-FF8080?style=for-the-badge)](./UnworkedProject.md)
-[![Worked Badge](https://img.shields.io/badge/done-16%20%2F%2020-82A0D8?style=for-the-badge)](./WorkedProject.md)
+[![Unworked Badge](https://img.shields.io/badge/pending-2%20%2F%2020-FF8080?style=for-the-badge)](./UnworkedProject.md)
+[![Worked Badge](https://img.shields.io/badge/done-18%20%2F%2020-82A0D8?style=for-the-badge)](./WorkedProject.md)
 
 ---
 
