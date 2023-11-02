@@ -16,6 +16,38 @@
 [![Unworked Badge](https://img.shields.io/badge/pending-2%20%2F%2020-FF8080?style=for-the-badge)](./UnworkedProject.md)
 [![Worked Badge](https://img.shields.io/badge/done-18%20%2F%2020-82A0D8?style=for-the-badge)](./WorkedProject.md)
 
+> **Important**
+>
+> Vì thứ tự bài trên wecode không nhất quán nên hãy đọc **"[WECODE EXERCISES ORDER](#wecode-exercises-order)"** 👇 để biết thêm chi tiết
+
+---
+
+## WECODE EXERCISES ORDER
+
+<details>
+<summary>
+    <b>Click here to expand 👈</b>
+</summary>
+
+Lưu ý: <b>"STT"</b> là tên file bài tương ứng trong repo này
+
+### Problem 6 - Mảng Một Chiều
+
+| **STT** | **BÀI** |
+| ------: | ------- |
+|       1 | 6.03    |
+|       2 | 6.04    |
+|       3 | 6.05    |
+|       4 | 6.02    |
+|       5 | 6.01    |
+|       6 | 6.06    |
+|       7 | 6.07    |
+|       8 | 6.08    |
+|       9 | 6.09    |
+|      10 | 6.10    |
+
+</details>
+
 ---
 
 ## MEMBERS
