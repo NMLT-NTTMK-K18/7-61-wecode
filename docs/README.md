@@ -1,24 +1,28 @@
-# 7 - 200 - WECODE 🫠
+# 7 - 61 - WECODE 🫠
 
 ![STT - 7](https://img.shields.io/badge/STT-7-EDB7ED?style=for-the-badge)
-![Bài tập - 200 Wecode](https://img.shields.io/badge/b%C3%A0i_t%E1%BA%ADp-200_wecode-8DDFCB?style=for-the-badge)
+![Bài tập - 61 Wecode](https://img.shields.io/badge/b%C3%A0i_t%E1%BA%ADp-61_wecode-8DDFCB?style=for-the-badge)
 ![Ải - 9](https://img.shields.io/badge/%E1%BA%A3i-9-ECEE81?style=for-the-badge)
 
 ---
 
 ## REPO INFO
 
-[![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/NMLT-NTTMK-K18/7-200-wecode?style=for-the-badge&color=CAEDFF)](../../../commits/main)
-![GitHub repo size](https://img.shields.io/github/repo-size/NMLT-NTTMK-K18/7-200-wecode?style=for-the-badge&color=D8B4F8)
-[![GitHub contributors](https://img.shields.io/github/contributors/NMLT-NTTMK-K18/7-200-wecode?style=for-the-badge&color=FBF0B2)](../../../graphs/contributors)
-[![CodeFactor](https://img.shields.io/codefactor/grade/github/nmlt-nttmk-k18/7-200-wecode?style=for-the-badge)](https://www.codefactor.io/repository/github/nmlt-nttmk-k18/7-200-wecode)
+[![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/NMLT-NTTMK-K18/7-61-wecode?style=for-the-badge&color=CAEDFF)](../../../commits/main)
+![GitHub repo size](https://img.shields.io/github/repo-size/NMLT-NTTMK-K18/7-61-wecode?style=for-the-badge&color=D8B4F8)
+[![GitHub contributors](https://img.shields.io/github/contributors/NMLT-NTTMK-K18/7-61-wecode?style=for-the-badge&color=FBF0B2)](../../../graphs/contributors)
+[![CodeFactor](https://img.shields.io/codefactor/grade/github/nmlt-nttmk-k18/7-61-wecode?style=for-the-badge)](https://www.codefactor.io/repository/github/nmlt-nttmk-k18/7-61-wecode)
 
 [![Unworked Badge](https://img.shields.io/badge/pending-0%20%2F%2020-FF8080?style=for-the-badge)](./UnworkedProject.md)
 [![Worked Badge](https://img.shields.io/badge/done-20%20%2F%2020-82A0D8?style=for-the-badge)](./WorkedProject.md)
 
-> **Important**
+> [!IMPORTANT]
 >
 > Vì thứ tự bài trên wecode không nhất quán nên hãy đọc **"[WECODE EXERCISES ORDER](#wecode-exercises-order)"** 👇 để biết thêm chi tiết
+
+> [!NOTE]
+>
+> Trước kia thầy Khang chốt 200 bài wecode, sau cùng chỉ 61 🫠 hên
 
 ---
 
