@@ -62,4 +62,4 @@ Lưu ý: <b>"STT"</b> là tên file bài tương ứng trong repo này
 |    2    | Trương Hoàng Khiêm     | [truonghoangkhiem](https://github.com/truonghoangkhiem) | 23520730 |
 |    3    | Nguyễn Thái Gia Nguyễn |        [NTGNguyen](https://github.com/NTGNguyen)        | 23521049 |
 |    4    | Ngô Minh Huy           |      [MinhHuy1507](https://github.com/MinhHuy1507)      | 23520623 |
-|    5    | Dương Thông Tuệ        |   [tueduonggg1203](https://github.com/tueduonggg1203)   | 23521734 |
+|    5    | Dương Thông Tuệ        |       [tueduong05](https://github.com/tueduong05)       | 23521734 |
